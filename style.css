@@ -1,0 +1,101 @@
+body {
+    font-family: Caveat;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: #5e2b82;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .section {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #f9d342;
+    color: #5e2b82;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Caveat;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #f7c700;
+  }
+  
+  .mensagem {
+    font-size: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #fff0f6;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: justify;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
+  .block {
+    background-color: #d9b4ef;
+    border-radius: 15px;
+    padding: 1rem;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .block:hover {
+    transform: scale(1.05);
+  }
+  
+  .block img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .footer-message {
+    background-color: #d4a8ef;
+    color: #5e2b82;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top: 5px solid #b88dcf;
+    margin-top: 3rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0 0 15px 15px;
+    object-fit: cover; /* ou "contain" dependendo do efeito desejado */
+  }
+  
+  
